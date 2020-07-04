@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,14 +30,6 @@
             background: url(./preloader_8.gif) center no-repeat #fff;
         }
         </style>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-        <script>
-            $(window).load(function() {
-                // Animate loader off screen
-                $(".se-pre-con").fadeOut("slow");;
-            });
-        </script>
 
 </head>
 
@@ -282,6 +274,14 @@
 <!---X---Main Site Section-------X------>
 <script src="./js/Jquery3.4.1.min.js"></script>
 <script src="./js/main.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+    $(window).load(function() {
+                // Animate loader off screen
+     $(".se-pre-con").fadeOut("slow");;
+     });
+ </script>
 <!--------Owl-carousal js----------------------->
 <script src="./js/owl.carousel.min.js"></script>
 <script src="./js/particles.js"></script>
