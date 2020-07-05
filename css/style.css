@@ -73,7 +73,7 @@ span{
 .nav{
     background-color:snow;
     padding: 0.2rem;
-    height:11rem;
+    height:0rem;
     min-height: 11vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
