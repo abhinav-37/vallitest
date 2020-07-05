@@ -23,59 +23,6 @@ html,body {
     --Helvetica:'Helvetica',cursive;
     --Open_Sans:'Open_Sans_Condensed',cursive;
 }
-/*-------------loader------------------------------*/
-.loader{
-    position: relative;
-    width: 100px;
-    height:100px;
-    border-radius: 50%;
-    background-color: linear-gradient("#14ffe9","#ffeb3b","#ff00e0");
-    animation: animate 0.5s linear infinite;
-
-}
-.loader span{
-    position: absolute;
-    width: 100%;
-    height:100%;
-    border-radius: 50%;
-    background-color: linear-gradient("#14ffe9","#ffeb3b","#ff00e0");
-    animation: animate 0.5s linear infinite;
-}
-@keyframes animate{
-    0%{
-        transform:rotate(0deg) ;
-    }
-    100%
-    {
-        transform:rotate(300deg) ;
-    }
-}
-.loader span:nth-child(1)
-{
-    filter: blur(5px);
-}
-.loader span:nth-child(2)
-{
-    filter: blur(10px);
-}
-.loader span:nth-child(3)
-{
-    filter: blur(25px);
-}
-.loader span:nth-child(4)
-{
-    filter: blur(50px);
-}
-.loader:after{
-    content:'';
-    position: absolute;
-    top:10px;
-    left:10px;
-    right:10px;
-    bottom: 10px;
-    background: #240229;
-    border-radius: 50%;
-}
 /* -----------------Gobal Classes -------------------*/
 a{
     text-decoration: none;
@@ -127,7 +74,7 @@ span{
     background-color:snow;
     padding: 0.2rem;
     height:11rem;
-    max-height: 12vh;
+    min-height: 11vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
     position: fixed;
